@@ -1,0 +1,63 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.back,.bt{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(187, 194, 180),
+    rgb(126, 156, 98),
+    rgb(81, 177, 121),rgb(187, 194, 180));
+    
+    background-size: 200% 200%;
+    animation: color 12s ease-in-out infinite;
+    
+}
+
+@keyframes color{
+    0%{
+        background-position: 0% 50%;
+    }
+     50%{
+        background-position: 100% 50%;
+    }
+     100%{
+        background-position: 0% 50%;
+    }
+
+
+
+
+
+}
+.videocon{
+    width: 100%;
+    height: auto;
+   
+}
+.intro{
+    text-align: center;
+}
+#title1{
+    text-align: center;
+}
+    
+.pictures{
+    border: 2px solid ;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+     box-shadow: 15px 15px 15px rgba(3, 13, 26, 0.5);
+
+
+}
+.doos{
+   text-align: center;
+}
+
+
